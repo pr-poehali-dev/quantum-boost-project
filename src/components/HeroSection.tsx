@@ -54,12 +54,12 @@ export default function HeroSection() {
               )}
             >
               <div className="flex items-center gap-3 mb-2">
-                <div className="h-px w-12 bg-blue-400" />
-                <span className="text-blue-400 text-sm font-medium uppercase tracking-widest">
+                <div className="h-px w-12 bg-red-500" />
+                <span className="text-red-500 text-sm font-medium uppercase tracking-widest">
                   Производитель
                 </span>
               </div>
-              <h1 className="text-5xl font-bold text-white md:text-6xl lg:text-7xl tracking-tight">
+              <h1 className="text-5xl font-bold text-red-500 md:text-6xl lg:text-7xl tracking-tight">
                 Фольманн
               </h1>
             </div>
@@ -71,7 +71,7 @@ export default function HeroSection() {
               )}
             >
               <p className="text-xl font-light text-white/80 md:text-2xl leading-relaxed">
-                Инновационная химическая продукция<br />для современного производства
+                Промышленная химия для производителей
               </p>
             </div>
 
@@ -81,9 +81,15 @@ export default function HeroSection() {
                 isLoaded ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'
               )}
             >
-              <p className="text-base text-white/60 leading-relaxed max-w-lg">
-                Разрабатываем и производим передовые химические решения, которые повышают эффективность промышленных процессов и открывают новые возможности для бизнеса.
-              </p>
+              <div className="text-base text-white/60 leading-relaxed max-w-lg">
+                <p className="mb-3">Сегодня производственный комплекс, расположенный в 35 км к востоку от Москвы в Богородском Индустриальном парке «Технопарк» (г. Ногинск), включает:</p>
+                <ul className="space-y-1.5 list-none">
+                  <li className="flex gap-2"><span className="text-red-500 mt-1">—</span><span>Современные многофункциональные технологические линии;</span></li>
+                  <li className="flex gap-2"><span className="text-red-500 mt-1">—</span><span>Собственную лабораторию, оборудованную измерительными и испытательными инструментами;</span></li>
+                  <li className="flex gap-2"><span className="text-red-500 mt-1">—</span><span>Высокотехнологичные складские помещения с управляемым микроклиматом, расположенные, помимо Подмосковья, в Санкт-Петербурге, Ростове-на-Дону и Новосибирске;</span></li>
+                  <li className="flex gap-2"><span className="text-red-500 mt-1">—</span><span>Уникальный коллектив, способный генерировать идеи и воплощать их в жизнь — у нас работает больше 100 специалистов, 80% из них с высшим профильным образованием и успешным опытом работы в отрасли.</span></li>
+                </ul>
+              </div>
             </div>
 
             <div
